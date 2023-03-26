@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ForeCastTableViewCell" rowHeight="160" id="100-qI-j9k" customClass="ForeCastTableViewCell" customModule="KSCAssignment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="408" height="160"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="100-qI-j9k" id="1Yq-gc-uHQ">
+                <rect key="frame" x="0.0" y="0.0" width="408" height="160"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zS7-5r-lVe">
+                        <rect key="frame" x="32" y="0.0" width="344" height="128"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1bJ-1d-KLc">
+                                <rect key="frame" x="0.0" y="0.0" width="344" height="128"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="lr5-Ja-foH">
+                                        <rect key="frame" x="24" y="31.666666666666671" width="56" height="65"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4aE-0k-I97">
+                                                <rect key="frame" x="0.0" y="0.0" width="56" height="22.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="May, 28" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g34-vi-VwS">
+                                                <rect key="frame" x="0.0" y="26.333333333333336" width="56" height="17.333333333333336"/>
+                                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="15"/>
+                                                <color key="textColor" systemColor="systemGrayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09:00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4IH-88-W51">
+                                                <rect key="frame" x="0.0" y="47.666666666666657" width="56" height="17.333333333333329"/>
+                                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="15"/>
+                                                <color key="textColor" systemColor="systemGrayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40°C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="YX7-3m-Ugd">
+                                        <rect key="frame" x="120.33333333333334" y="38.333333333333329" width="95.333333333333343" height="51.333333333333329"/>
+                                        <fontDescription key="fontDescription" name="Cochin-Bold" family="Cochin" pointSize="44"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qHj-nc-wFX">
+                                        <rect key="frame" x="256" y="32" width="64" height="64"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="64" id="TaZ-0d-LYI"/>
+                                            <constraint firstAttribute="height" constant="64" id="hFI-xl-rBf"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <edgeInsets key="layoutMargins" top="24" left="24" bottom="24" right="24"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1bJ-1d-KLc" firstAttribute="top" secondItem="zS7-5r-lVe" secondAttribute="top" id="4wU-aa-VG1"/>
+                            <constraint firstAttribute="bottom" secondItem="1bJ-1d-KLc" secondAttribute="bottom" id="Iq4-gV-TJi"/>
+                            <constraint firstAttribute="trailing" secondItem="1bJ-1d-KLc" secondAttribute="trailing" id="ndt-Mz-YHL"/>
+                            <constraint firstItem="1bJ-1d-KLc" firstAttribute="leading" secondItem="zS7-5r-lVe" secondAttribute="leading" id="vX7-kd-E7c"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="zS7-5r-lVe" secondAttribute="trailing" constant="32" id="5q7-Pg-V6e"/>
+                    <constraint firstItem="zS7-5r-lVe" firstAttribute="top" secondItem="1Yq-gc-uHQ" secondAttribute="top" id="fWN-GI-xwE"/>
+                    <constraint firstItem="zS7-5r-lVe" firstAttribute="leading" secondItem="1Yq-gc-uHQ" secondAttribute="leading" constant="32" id="n30-3F-8YK"/>
+                    <constraint firstAttribute="bottom" secondItem="zS7-5r-lVe" secondAttribute="bottom" constant="32" id="nHM-vY-u0k"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="dateLabel" destination="g34-vi-VwS" id="guu-pK-Xbe"/>
+                <outlet property="dayLabel" destination="4aE-0k-I97" id="79m-HD-DtT"/>
+                <outlet property="foreCastView" destination="zS7-5r-lVe" id="hOl-4f-w0h"/>
+                <outlet property="iconImage" destination="qHj-nc-wFX" id="OLT-G9-Cya"/>
+                <outlet property="temperatureLabel" destination="YX7-3m-Ugd" id="x7f-q4-efa"/>
+                <outlet property="timeLabel" destination="4IH-88-W51" id="oIP-hT-p3S"/>
+            </connections>
+            <point key="canvasLocation" x="99.236641221374043" y="-1.4084507042253522"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
